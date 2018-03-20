@@ -1,0 +1,2 @@
+john ALL=(ALL) NOPASSWD: ALL
+
