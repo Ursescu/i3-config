@@ -1,7 +1,7 @@
 #!/bin/sh
 
-AUR_PACKAGES=(aurget smartgit visual-studio-code-bin spotify)
-PACMAN_PACKAGES=(pavucontrol pulseaudio git firefox vim emacs xclip)
+AUR_PACKAGES=(aurget smartgit visual-studio-code-bin spotify speedcrunch terminator ttf-roboto)
+PACMAN_PACKAGES=(pavucontrol pulseaudio git firefox vim emacs xclip unzip zip)
 sudo pacman -Sy ${PACMAN_PACKAGES[*]} --noconfirm
 
 
